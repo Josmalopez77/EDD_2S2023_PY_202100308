@@ -1,0 +1,7 @@
+digraph ListaDoble {
+    "PY-101" [label="Codigo: PY-101\nTarea: TAREAP1"];
+    "PY-100" [label="Codigo: PY-100\nTarea: TAREAP11"];
+    "PY-101" -> "PY-100";
+    "PY-101" [label="Codigo: PY-101\nTarea: TAREAP2"];
+    "PY-100" -> "PY-101";
+}

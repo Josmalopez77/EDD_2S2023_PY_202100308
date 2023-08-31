@@ -1,0 +1,35 @@
+digraph MatrizCapa{ 
+ node[shape=box] 
+ rankdir=UD;
+{rank=same; 
+nodo0x1261920[label="RAIZ\n" ,group=0]; 
+nodo0x1266230[label="PY-100" ,group=1]; 
+nodo0x1266280[label="PY-101" ,group=2]; 
+nodo0x12662d0[label="PY-102" ,group=3]; 
+} 
+{rank=same; 
+nodo0x1266340[label="Cristian Suy" ,group=0]; 
+nodo0x1266500[label="PY-101\nSC-001" ,group=2]; 
+} 
+{rank=same; 
+nodo0x12663b0[label="Alberto Mejia" ,group=0]; 
+nodo0x1266570[label="PY-100\nSC-002" ,group=1]; 
+} 
+{rank=same; 
+nodo0x1266420[label="Paula Fuentes" ,group=0]; 
+} 
+{rank=same; 
+nodo0x1266490[label="Hector Gomez" ,group=0]; 
+} 
+nodo0x1261920 -> nodo0x1266230 [dir=both];
+nodo0x1266230 -> nodo0x1266280 [dir=both];
+nodo0x1266280 -> nodo0x12662d0 [dir=both];
+nodo0x1266340 -> nodo0x1266500 [dir=both];
+nodo0x12663b0 -> nodo0x1266570 [dir=both];
+nodo0x1261920 -> nodo0x1266340 [dir=both];
+nodo0x1266340 -> nodo0x12663b0 [dir=both];
+nodo0x12663b0 -> nodo0x1266420 [dir=both];
+nodo0x1266420 -> nodo0x1266490 [dir=both];
+nodo0x1266230 -> nodo0x1266570 [dir=both];
+nodo0x1266280 -> nodo0x1266500 [dir=both];
+} 

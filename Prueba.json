@@ -1,0 +1,35 @@
+{
+    "Proyectos": [
+        {
+            "Prioridad": "C",
+            "Tareas": [
+                {
+                    "Empleado": "",
+                    "nombre": "Tarea1"
+                }
+            ],
+            "id": "PY-100",
+            "nombre": "Proyecto1"
+        },
+        {
+            "Prioridad": "A",
+            "Tareas": [
+                {
+                    "Empleado": "",
+                    "nombre": "TAREA2"
+                },
+                {
+                    "Empleado": "",
+                    "nombre": "Tarea3"
+                }
+            ],
+            "id": "PY-101",
+            "nombre": "Proyecto2"
+        },
+        {
+            "Prioridad": "B",
+            "id": "PY-102",
+            "nombre": "Proyecto3"
+        }
+    ]
+}

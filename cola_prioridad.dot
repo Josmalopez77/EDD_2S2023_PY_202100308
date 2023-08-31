@@ -1,0 +1,8 @@
+digraph G {
+rankdir=LR;
+  "PY-102" [label="PY-102\nP3", shape=box];
+  "PY-101" [label="PY-101\nP2", shape=box];
+  "PY-100" [label="PY-100\nP1", shape=box];
+  "PY-102" -> "PY-101";
+  "PY-101" -> "PY-100";
+}

@@ -1,0 +1,11 @@
+digraph ListaCircular {
+rankdir=LR;
+    "Cristian Suy";
+    "Alberto Mejia";
+    "Paula Fuentes";
+    "Hector Gomez";
+    "Cristian Suy" -> "Alberto Mejia";
+    "Alberto Mejia" -> "Paula Fuentes";
+    "Paula Fuentes" -> "Hector Gomez";
+    "Hector Gomez" -> "Cristian Suy";
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EDD_2S2023_PY_-202100308" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EDD_2S2023_PY_-202100308" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EDD_2S2023_PY_-202100308" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Cola2.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Cola2.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ColaPrioridad.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ColaPrioridad.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Empleados.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Empleados.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="JSON.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Lista.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Lista.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ListaDoble.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="ListaDoble.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Matriz.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Matriz.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoCola.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoCola.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoCola2.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoCola2.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoLista.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoLista.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoListaDoble.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoListaDoble.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoMatriz.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="NodoMatriz.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Proyecto.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Proyecto.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Tarea.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Tarea.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
